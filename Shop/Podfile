@@ -1,0 +1,23 @@
+platform :ios, '9.0'
+
+abstract_target 'abstract_pod' do
+    pod 'AFNetworking'
+    pod 'Masonry'
+    pod 'SDWebImage', '~> 4.0.0'
+    pod 'MBProgressHUD', '~> 1.0.0' 
+
+    target 'Shop' do
+        pod 'YYModel'
+    end
+
+    target 'Shop2' do
+        pod 'MJExtension'
+    end
+end
+
+#Installing AFNetworking (3.2.1)
+#Installing MBProgressHUD (1.0.0)
+#Installing MJExtension (3.2.1)
+#Installing Masonry (1.1.0)
+#Installing SDWebImage (4.0.0)
+#Installing YYModel (1.0.4)
